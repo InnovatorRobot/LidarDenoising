@@ -1,9 +1,3 @@
-/** @file
-@brief Contains classes for denoising lidar point clouds in different situations
-like dust, snow, rain
-@author Saman Mahmoodi
-*/
-
 #ifndef LIDAR_DENOISING_H
 #define LIDAR_DENOISING_H
 
