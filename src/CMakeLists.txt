@@ -10,7 +10,7 @@ include_directories(${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 
-add_executable(LidarDenoising main.cpp denoising.hpp)
+add_executable(LidarDenoising main.cpp denoising.hpp kdtree.hpp PointCloud.hpp)
 
 target_link_libraries(LidarDenoising ${PCL_LIBRARIES})
 
